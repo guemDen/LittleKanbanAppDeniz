@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63670D251EE3BBE7008A51B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63670D241EE3BBE7008A51B4 /* AppDelegate.swift */; };
+		63670D271EE3BBE7008A51B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63670D261EE3BBE7008A51B4 /* ViewController.swift */; };
+		63670D2A1EE3BBE7008A51B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63670D281EE3BBE7008A51B4 /* Main.storyboard */; };
+		63670D2F1EE3BBE7008A51B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63670D2E1EE3BBE7008A51B4 /* Assets.xcassets */; };
+		63670D321EE3BBE7008A51B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63670D301EE3BBE7008A51B4 /* LaunchScreen.storyboard */; };
+		63670D3A1EE3BED1008A51B4 /* BoardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63670D391EE3BED1008A51B4 /* BoardListViewController.swift */; };
+		63670D3C1EE3C626008A51B4 /* UserBoardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63670D3B1EE3C626008A51B4 /* UserBoardsVC.swift */; };
+		63670D3E1EE3C893008A51B4 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63670D3D1EE3C893008A51B4 /* PreferencesViewController.swift */; };
+		63670D401EE3C9B3008A51B4 /* ToDoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63670D3F1EE3C9B3008A51B4 /* ToDoCollectionViewCell.swift */; };
+		63670D421EE3CB6B008A51B4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63670D411EE3CB6B008A51B4 /* DetailViewController.swift */; };
+		848CC1571EEF15DC000F4C4D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CC1561EEF15DC000F4C4D /* User.swift */; };
+		848CC1591EF02A92000F4C4D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CC1581EF02A92000F4C4D /* Data.swift */; };
+		848CC15C1EF030E9000F4C4D /* LittleKanban.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848CC15A1EF030E9000F4C4D /* LittleKanban.xcdatamodeld */; };
+		848CC15E1EF0349C000F4C4D /* LittleKanbanBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CC15D1EF0349C000F4C4D /* LittleKanbanBoard.swift */; };
+		848CC1601EF04585000F4C4D /* LittleKanbanColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CC15F1EF04585000F4C4D /* LittleKanbanColumn.swift */; };
+		848CC1621EF0459A000F4C4D /* LittleKanbanCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CC1611EF0459A000F4C4D /* LittleKanbanCard.swift */; };
+		848CC16A1EF705C5000F4C4D /* ColumnPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CC1691EF705C5000F4C4D /* ColumnPicker.swift */; };
+		84BF0ED61EF99C7E00790AD7 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF0ED51EF99C7E00790AD7 /* ColorPicker.swift */; };
+		84BF0ED81EF9A40E00790AD7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF0ED71EF9A40E00790AD7 /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63670D211EE3BBE7008A51B4 /* LittleKanban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleKanban.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63670D241EE3BBE7008A51B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63670D261EE3BBE7008A51B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63670D291EE3BBE7008A51B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63670D2E1EE3BBE7008A51B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63670D311EE3BBE7008A51B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63670D331EE3BBE7008A51B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63670D391EE3BED1008A51B4 /* BoardListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardListViewController.swift; sourceTree = "<group>"; };
+		63670D3B1EE3C626008A51B4 /* UserBoardsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserBoardsVC.swift; sourceTree = "<group>"; };
+		63670D3D1EE3C893008A51B4 /* PreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		63670D3F1EE3C9B3008A51B4 /* ToDoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoCollectionViewCell.swift; sourceTree = "<group>"; };
+		63670D411EE3CB6B008A51B4 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		848CC1561EEF15DC000F4C4D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		848CC1581EF02A92000F4C4D /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		848CC15B1EF030E9000F4C4D /* LittleKanban.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittleKanban.xcdatamodel; sourceTree = "<group>"; };
+		848CC15D1EF0349C000F4C4D /* LittleKanbanBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleKanbanBoard.swift; sourceTree = "<group>"; };
+		848CC15F1EF04585000F4C4D /* LittleKanbanColumn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleKanbanColumn.swift; sourceTree = "<group>"; };
+		848CC1611EF0459A000F4C4D /* LittleKanbanCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleKanbanCard.swift; sourceTree = "<group>"; };
+		848CC1691EF705C5000F4C4D /* ColumnPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnPicker.swift; sourceTree = "<group>"; };
+		84BF0ED51EF99C7E00790AD7 /* ColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		84BF0ED71EF9A40E00790AD7 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63670D1E1EE3BBE7008A51B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63670D181EE3BBE7008A51B4 = {
+			isa = PBXGroup;
+			children = (
+				63670D231EE3BBE7008A51B4 /* LittleKanbanDenis */,
+				63670D221EE3BBE7008A51B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63670D221EE3BBE7008A51B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63670D211EE3BBE7008A51B4 /* LittleKanban.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63670D231EE3BBE7008A51B4 /* LittleKanbanDenis */ = {
+			isa = PBXGroup;
+			children = (
+				63670D281EE3BBE7008A51B4 /* Main.storyboard */,
+				848CC15A1EF030E9000F4C4D /* LittleKanban.xcdatamodeld */,
+				63670D241EE3BBE7008A51B4 /* AppDelegate.swift */,
+				63670D261EE3BBE7008A51B4 /* ViewController.swift */,
+				84BF0ED71EF9A40E00790AD7 /* SignUpViewController.swift */,
+				63670D391EE3BED1008A51B4 /* BoardListViewController.swift */,
+				63670D3B1EE3C626008A51B4 /* UserBoardsVC.swift */,
+				63670D3F1EE3C9B3008A51B4 /* ToDoCollectionViewCell.swift */,
+				63670D411EE3CB6B008A51B4 /* DetailViewController.swift */,
+				848CC1691EF705C5000F4C4D /* ColumnPicker.swift */,
+				84BF0ED51EF99C7E00790AD7 /* ColorPicker.swift */,
+				63670D3D1EE3C893008A51B4 /* PreferencesViewController.swift */,
+				848CC1581EF02A92000F4C4D /* Data.swift */,
+				848CC1561EEF15DC000F4C4D /* User.swift */,
+				848CC15D1EF0349C000F4C4D /* LittleKanbanBoard.swift */,
+				848CC15F1EF04585000F4C4D /* LittleKanbanColumn.swift */,
+				848CC1611EF0459A000F4C4D /* LittleKanbanCard.swift */,
+				63670D2E1EE3BBE7008A51B4 /* Assets.xcassets */,
+				63670D331EE3BBE7008A51B4 /* Info.plist */,
+				63670D301EE3BBE7008A51B4 /* LaunchScreen.storyboard */,
+			);
+			name = LittleKanbanDenis;
+			path = LittleKanbanApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63670D201EE3BBE7008A51B4 /* LittleKanban */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63670D361EE3BBE7008A51B4 /* Build configuration list for PBXNativeTarget "LittleKanban" */;
+			buildPhases = (
+				63670D1D1EE3BBE7008A51B4 /* Sources */,
+				63670D1E1EE3BBE7008A51B4 /* Frameworks */,
+				63670D1F1EE3BBE7008A51B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleKanban;
+			productName = CodementorDenis;
+			productReference = 63670D211EE3BBE7008A51B4 /* LittleKanban.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63670D191EE3BBE7008A51B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Denis Gümüs";
+				TargetAttributes = {
+					63670D201EE3BBE7008A51B4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 63670D1C1EE3BBE7008A51B4 /* Build configuration list for PBXProject "LittleKanban" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63670D181EE3BBE7008A51B4;
+			productRefGroup = 63670D221EE3BBE7008A51B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63670D201EE3BBE7008A51B4 /* LittleKanban */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63670D1F1EE3BBE7008A51B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63670D321EE3BBE7008A51B4 /* LaunchScreen.storyboard in Resources */,
+				63670D2F1EE3BBE7008A51B4 /* Assets.xcassets in Resources */,
+				63670D2A1EE3BBE7008A51B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63670D1D1EE3BBE7008A51B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63670D271EE3BBE7008A51B4 /* ViewController.swift in Sources */,
+				848CC1591EF02A92000F4C4D /* Data.swift in Sources */,
+				84BF0ED61EF99C7E00790AD7 /* ColorPicker.swift in Sources */,
+				63670D251EE3BBE7008A51B4 /* AppDelegate.swift in Sources */,
+				63670D401EE3C9B3008A51B4 /* ToDoCollectionViewCell.swift in Sources */,
+				848CC1621EF0459A000F4C4D /* LittleKanbanCard.swift in Sources */,
+				848CC16A1EF705C5000F4C4D /* ColumnPicker.swift in Sources */,
+				848CC15C1EF030E9000F4C4D /* LittleKanban.xcdatamodeld in Sources */,
+				63670D3C1EE3C626008A51B4 /* UserBoardsVC.swift in Sources */,
+				848CC1601EF04585000F4C4D /* LittleKanbanColumn.swift in Sources */,
+				84BF0ED81EF9A40E00790AD7 /* SignUpViewController.swift in Sources */,
+				63670D3A1EE3BED1008A51B4 /* BoardListViewController.swift in Sources */,
+				63670D3E1EE3C893008A51B4 /* PreferencesViewController.swift in Sources */,
+				63670D421EE3CB6B008A51B4 /* DetailViewController.swift in Sources */,
+				848CC1571EEF15DC000F4C4D /* User.swift in Sources */,
+				848CC15E1EF0349C000F4C4D /* LittleKanbanBoard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63670D281EE3BBE7008A51B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63670D291EE3BBE7008A51B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63670D301EE3BBE7008A51B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63670D311EE3BBE7008A51B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63670D341EE3BBE7008A51B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63670D351EE3BBE7008A51B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63670D371EE3BBE7008A51B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LittleKanbanApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.littleKanban.guemuesDeniz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63670D381EE3BBE7008A51B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LittleKanbanApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.littleKanban.guemuesDeniz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63670D1C1EE3BBE7008A51B4 /* Build configuration list for PBXProject "LittleKanban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63670D341EE3BBE7008A51B4 /* Debug */,
+				63670D351EE3BBE7008A51B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63670D361EE3BBE7008A51B4 /* Build configuration list for PBXNativeTarget "LittleKanban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63670D371EE3BBE7008A51B4 /* Debug */,
+				63670D381EE3BBE7008A51B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		848CC15A1EF030E9000F4C4D /* LittleKanban.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				848CC15B1EF030E9000F4C4D /* LittleKanban.xcdatamodel */,
+			);
+			currentVersion = 848CC15B1EF030E9000F4C4D /* LittleKanban.xcdatamodel */;
+			path = LittleKanban.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63670D191EE3BBE7008A51B4 /* Project object */;
+}

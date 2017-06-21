@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G31" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LittleKanbanBoard" representedClassName=".LittleKanbanBoard" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" defaultValueString="LittleBoard" syncable="YES"/>
+        <relationship name="littleKanbanColumns" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="LittleKanbanColumn" inverseName="littleKanbanBoard" inverseEntity="LittleKanbanColumn" syncable="YES"/>
+        <relationship name="users" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="littleKanbanBoards" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="LittleKanbanCard" representedClassName=".LittleKanbanCard" syncable="YES">
+        <attribute name="column" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dueDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="editor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="mark" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" defaultValueString="New Card" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="littleKanbanColumn" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LittleKanbanColumn" inverseName="littleKanbanCards" inverseEntity="LittleKanbanColumn" syncable="YES"/>
+    </entity>
+    <entity name="LittleKanbanColumn" representedClassName=".LittleKanbanColumn" syncable="YES">
+        <attribute name="dateCreated" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="header" optional="YES" attributeType="String" defaultValueString="Little Kanban Column" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="wipLimit" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="littleKanbanBoard" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LittleKanbanBoard" inverseName="littleKanbanColumns" inverseEntity="LittleKanbanBoard" syncable="YES"/>
+        <relationship name="littleKanbanCards" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="LittleKanbanCard" inverseName="littleKanbanColumn" inverseEntity="LittleKanbanCard" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName=".User" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profilename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="littleKanbanBoards" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="LittleKanbanBoard" inverseName="users" inverseEntity="LittleKanbanBoard" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="LittleKanbanBoard" positionX="-551" positionY="-144" width="128" height="105"/>
+        <element name="LittleKanbanCard" positionX="-18" positionY="-45" width="128" height="195"/>
+        <element name="LittleKanbanColumn" positionX="-270" positionY="-18" width="128" height="135"/>
+        <element name="User" positionX="-837" positionY="-135" width="128" height="148"/>
+    </elements>
+</model>
